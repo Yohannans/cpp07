@@ -8,7 +8,7 @@ class Array
 		T *array;
 		unsigned int sizeOfArray;
 	public:
-		Array() : array(nullptr), sizeOfArray(0) {}
+		Array() : array(NULL), sizeOfArray(0) {}
 
 		Array(unsigned int n) : array(new T[n]()), sizeOfArray(n) {}
 
